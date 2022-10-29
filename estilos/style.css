@@ -39,3 +39,26 @@ section#telefone {
     width: 269px;
     height: 473px;
 }
+
+#redes-sociais {
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    left: 93%;
+}
+
+#redes-sociais img {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+    width: 50px;
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid  rgba(255, 255, 255, 0.767);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    transition: transform 0.5s;
+}
